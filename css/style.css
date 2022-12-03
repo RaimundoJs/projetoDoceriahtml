@@ -1,0 +1,45 @@
+html{
+    font-family: 'Open Sans','sans-serif';
+}
+
+#sidebar{
+    position: fixed;
+    width: 300px;
+    background-color:rgb(17, 117, 60) ;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.sidebar-container{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.sidebar-container h1{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+
+}
+
+#sidebar li{
+    padding: 20px;
+}
+
+.sidebar-container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo-doceria{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+   
+}
