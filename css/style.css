@@ -43,3 +43,50 @@ html{
     margin: 0 auto;
    
 }
+
+/* conteudo */
+
+/* primeira sessao */
+
+.content{
+    position: absolute ;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+.content h1, .content h2{
+    color:rgb(17, 117, 60) ;
+    margin-bottom: 30px;
+}
+
+.content h2{
+    font-size: 48px;
+}
+.content h3{
+    font-size: 32px;
+    color:#289108 ;
+}
+
+section{
+    padding-left: 50px;
+}
+
+/* sessao bem vindo */
+#sessao-bemvindo{
+    padding-left: 0;
+}
+
+.sessao-bemvindo-content{
+    padding-left: 50px;
+}
+
+#sessao-bemvindo .banner{
+	height: 500px;
+	background-image: url(../img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#sessao-bemvindo h2{
+    margin-top: 70px;
+}
